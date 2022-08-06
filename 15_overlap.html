@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlap</title>
+    <style>
+        *{
+          margin:0;
+        }
+        section{
+            width:400px;
+            height:300px;
+            background: #09042A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                }
+        div {
+            position:absolute;
+            width: 150px;
+            height: 150px;
+            background: #7B3F61;
+            border-radius: 50%;
+            left: 75px;
+        }
+        div:nth-child(2) {
+            background: #E78481;
+            left: 175px;
+        }
+        p {
+            position:absolute;
+            width: 80px;
+            height: 80px;
+            background: #09042A;
+            border-radius: 0 75px;
+            transform: rotate(45deg);
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <p></p>
+    </section>
+</body>
+</html>
