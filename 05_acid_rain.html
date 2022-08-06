@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acid Rain</title>
+    <style>
+        *{
+          margin:0;
+        }
+        section{
+            width:400px;
+            height:300px;
+            background:#0B2429;
+        }
+        div {
+            position:absolute;
+            width: 120px;
+            height: 120px;
+            background: #F3AC3C;
+            border-radius: 50% 0 50% 50%;
+            top:150px;
+            left:80px;
+            z-index: 2;
+        }
+        div:nth-child(2){
+            background: #998235;
+            top: 90px;
+            left: 140px;
+            z-index: 1;
+        }
+        div:nth-child(3){
+            top: 30px;
+            left: 200px;
+            transform: rotate(180deg);
+            z-index: 0;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Slice</title>
+    <style>
+        *{
+          margin:0;
+        }
+        section{
+            width:400px;
+            height:300px;
+            background:#E3516E;
+        }
+        div {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: #F7F3D7;
+            top:150px;
+            left:100px;
+        }
+        div:nth-child(2) {
+            background: #51B5A9;
+            top:50px;
+            left:100px;
+        }
+        div:nth-child(3) {
+            background: #FADE8B;
+            top:50px;
+            left:200px;
+        }
+        p {
+            position: absolute;
+            background: transparent;
+            height:200px;
+            width: 200px;
+            left:50px;
+            border: 50px solid #E3516E;
+            border-radius: 50%;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p></p>
+    </section>
+</body>
+</html>
