@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overlap</title>
+    <title>Fidget Spinner</title>
     <style>
         * {
           margin: 0;
         }
-        section{
+        section {
             width: 400px;
             height: 300px;
             background: #09042A;
@@ -18,31 +18,42 @@
             align-items: center;
         }
         div {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            background: #7B3F61;
-            border-radius: 50%;
-            left: 75px;
-        }
-        div:nth-child(2) {
+            width: 100px;
+            height: 50px;
             background: #E78481;
-            left: 175px;
         }
         p {
-            position:absolute;
-            width: 80px;
-            height: 80px;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: #F5BB9C;
+            border: 10px solid #09042A;
+            border-radius: 50%;
+            top: 57px;
+        }
+        p:nth-child(3){
+            top: 163px;
+        }
+        p:nth-child(4){
+            top: unset;
+            left: 100px;
             background: #09042A;
-            border-radius: 0 75px;
-            transform: rotate(45deg);
+            border: 10px solid #E78481;
+        }
+        p:nth-child(5){
+            top: unset;
+            left: 220px;
+            background: #09042A;
+            border: 10px solid #E78481;
         }
       </style>
 </head>
 <body>
     <section>
         <div></div>
-        <div></div>
+        <p></p>
+        <p></p>
+        <p></p>
         <p></p>
     </section>
 </body>
