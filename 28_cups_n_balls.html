@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cups and Balls</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            width: 400px;
+            height: 300px;
+            background: #1A4341; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            width: 280px;
+            height: 140px;
+        }
+        p {
+            width: 50px;
+            height: 50px;
+            background: #998235;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .y {
+            background: #F3AC3C;
+        }
+        .n {
+            border-radius: 50% 50% 0 0;
+        }
+        .u {
+            border-radius: 0 0 50% 50%;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div>
+            <p></p>
+            <p class="y n"></p>
+            <p class="n"></p>
+            <p class="y"></p>
+            <p class="y u"></p>
+            <p></p>
+            <p class="y"></p>
+            <p class="u"></p>
+          </div>
+    </section>
+</body>
+</html>
