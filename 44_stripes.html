@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripes</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            width: 400px;
+            height: 300px;
+            background: #1a4341;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p {
+            width: 240px;
+            height: 20px;
+            background: #F3AC3C;
+            box-shadow:
+                0 0 0 20px #1A4341,
+                0 0 0 40px #F3AC3C,
+                0 0 0 60px #1A4341,
+                0 0 0 80px #F3AC3C;
+        }
+        a {
+            position: fixed;
+            width: 0;
+            height: 0;
+            border-top: 150px solid #1A4341;
+            border-right: 150px solid transparent;
+            border-bottom: 150px solid transparent;
+            border-left: 150px solid #1A4341;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+            left: 250px;
+        }
+        a[i] {
+            left: -150px;
+            transform: rotate(135deg);
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <a></a>
+        <a i></a>
+    </section>
+</body>
+</html>
