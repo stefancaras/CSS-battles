@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Aid</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            width: 400px;
+            height: 300px;
+            border: 1px solid black;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p {
+            position: absolute;
+            width: 50px;
+            height: 200px;
+            background: #F3AC3C;
+            transform: rotate(-45deg);
+        }
+        p:nth-child(2){
+            background: #A3A368; 
+            transform: rotate(45deg);
+        }
+        p:nth-child(3){
+            height: 50px;
+            background: #FBE18C;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+</body>
+</html>

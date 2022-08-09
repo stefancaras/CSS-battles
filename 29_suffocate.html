@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suffocate</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            width: 400px;
+            height: 300px;
+            background: #1A4341;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        p {
+            width: 200px;
+            height: 150px;
+            background: #F3AC3C;
+            border-radius: 0 0 100px 0;
+        }
+        p[i] {
+            border-radius: 0 0 0 100px;
+        }
+        p[j] {
+            border-radius: 0 100px 0 0;
+        }
+        p[k] {
+            border-radius: 100px 0 0 0;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p i></p>
+        <p j></p>
+        <p k></p>
+    </section>
+</body>
+</html>
