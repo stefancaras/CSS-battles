@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdie</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #1A4341;
+        }
+        div {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 75px solid;
+            border-color: #998235 transparent transparent #998235;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);  
+        }
+        div[i]{
+            border: 100px solid;
+            border-color: transparent #F3AC3C transparent transparent;
+        }
+        p {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #0B2429;
+            top: 105px;
+            left: 155px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div i></div>
+        <p></p>
+    </section>
+</body>
+</html>

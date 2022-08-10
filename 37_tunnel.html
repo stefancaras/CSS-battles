@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Band Aid</title>
+    <title>Tunnel</title>
     <style>
         * {
           margin: 0;
@@ -13,34 +13,36 @@
             position: relative;
             width: 400px;
             height: 300px;
-            border: 1px solid black;
-            background: white;
+            background: #6592CF;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        p {
+        div {
             position: absolute;
-            width: 50px;
-            height: 200px;
-            background: #F3AC3C;
-            transform: rotate(-45deg);
+            width: 250px;
+            height: 250px;
+            background: #243D83;
         }
-        p:nth-child(2){
-            background: #A3A368; 
-            transform: rotate(45deg);
+        div:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            background: #6592CF;
+            transform: rotate(15deg);
         }
-        p:nth-child(3){
-            height: 50px;
-            background: #FBE18C;
+        div:nth-child(3) {
+            width: 75px;
+            height: 75px;
+            background: #243D83;
+            transform: rotate(30deg);
         }
       </style>
 </head>
 <body>
     <section>
-        <p></p>
-        <p></p>
-        <p></p>
+        <div></div>
+        <div></div>
+        <div></div>
     </section>
 </body>
 </html>

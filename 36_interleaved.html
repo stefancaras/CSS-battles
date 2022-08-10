@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Band Aid</title>
+    <title>Interleaved</title>
     <style>
         * {
           margin: 0;
@@ -13,34 +13,31 @@
             position: relative;
             width: 400px;
             height: 300px;
-            border: 1px solid black;
-            background: white;
+            background: #1A4341;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            align-items: flex-end;
         }
-        p {
-            position: absolute;
+        div {
             width: 50px;
             height: 200px;
             background: #F3AC3C;
-            transform: rotate(-45deg);
+            margin-left: 25px;
+            border-radius: 25px 25px 0 0;
         }
-        p:nth-child(2){
-            background: #A3A368; 
-            transform: rotate(45deg);
-        }
-        p:nth-child(3){
-            height: 50px;
-            background: #FBE18C;
+        div:nth-child(2n) {
+            transform: rotate(180deg);
+            align-self: flex-start;
+            background: #998235;
         }
       </style>
 </head>
 <body>
     <section>
-        <p></p>
-        <p></p>
-        <p></p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </section>
 </body>
 </html>
