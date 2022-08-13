@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox Head</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #293462;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        div {
+            width: 50px;
+            height: 140px;
+            background: #FE5F55;
+            border-radius: 0 40px 0 0
+        }
+        div:nth-child(2) {
+            border-radius: 40px 0 0 0;
+        }
+        div:nth-child(3) {
+            position: absolute;
+            background: #293462;
+            top: 180px;
+            left: 150px;
+        }
+        div:nth-child(4) {
+            position: absolute;
+            background: #293462;
+            border-radius: 40px 0 0 0;
+            top: 180px;
+            left: 200px;
+        }
+        p {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #293462;
+            border-radius: 50%;
+            top: 140px;
+            left: 205px;
+        }
+        p:nth-child(6) {
+            left: 165px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p></p>
+        <p></p>
+    </section>
+</body>
+</html>
