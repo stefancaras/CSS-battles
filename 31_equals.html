@@ -10,19 +10,20 @@
           margin: 0;
         }
         section{
+            position: relative;
             width: 400px;
             height: 300px;
             background: #AA445F;
         }
         div {
-            position: relative;
+            position: absolute;
             width: 250px;
             height: 200px;
-            background: linear-gradient(to right,#F7EC7D 40%,#AA445F 40%,#AA445F 60%,#E38F66 60%);
+            background: linear-gradient(to right,
+                #F7EC7D 40%,#AA445F 40% 60%,#E38F66 60%);
             border-radius: 100px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 50px;
+            left: 75px;
         }
       </style>
 </head>
