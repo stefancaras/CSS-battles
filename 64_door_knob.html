@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Door Knob</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #191919;
+        }
+        div {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: #E08027;
+            border: 30px solid #824B20;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+        div[i] {
+            width: 80px;
+            height: 80px;
+            background: transparent;
+            border: 20px solid #FFF58F;
+            border-color: transparent transparent #FFF58F #FFF58F;
+        }
+        p {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #FFF58F;
+            border-radius: 50%;
+            top: -5px;
+            left: -5px;
+        }
+        p[i] {
+            top: 65px;
+            left: 65px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div i>
+            <p></p>
+            <p i></p>
+        </div>
+    </section>
+</body>
+</html>

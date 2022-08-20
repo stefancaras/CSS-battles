@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #191919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        p {
+            position: absolute;
+            width: 10px;
+            height: 150px;
+            background: #191919;
+            
+        }
+        p[i] {
+            width: 150px;
+            height: 10px;
+            box-shadow: 
+            0 0 0 30px #4F77FF,
+            0 0 0 40px #191919,
+            0 0 0 70px #4F77FF;
+        }
+        div {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: transparent;
+            border: 100px solid #191919;
+            border-radius: 50%;
+        }
+        div[i] {
+            width: 190px;
+            height: 190px;
+            border: 10px solid #191919;
+            left: 155px;
+        }
+        div[i]:last-of-type {
+            left: 35px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p i></p>
+        <p></p>
+        <div></div>
+        <div i></div>
+        <div i></div>
+    </section>
+</body>
+</html>

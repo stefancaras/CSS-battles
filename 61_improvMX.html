@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImprovMX</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #191919;
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            background: #191919;
+            box-shadow: 0 0 0 10px #5DBCF9;
+            top: 76px;
+        }
+        p:nth-child(2) {
+            width: 80px;
+            height: 50px;
+            top: 106px;
+        }
+        div {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            top: 123px;
+            overflow: hidden;
+        }
+        p[i] {
+            width: 70px;
+            height: 70px;
+            transform: rotate(60deg);
+            transform-origin: 0 0;
+            top: 17px;
+            left: 96px;
+        }  
+        p[j] {
+            width: 70px;
+            height: 70px;
+            transform: rotate(-60deg);
+            transform-origin: top right;
+            top: 17px;
+            right: 96px;
+        }
+        h1 {
+            position: absolute;
+            width: 10px;
+            height: 100px;
+            background: #5DBCF9;
+            top: 130px;
+        }
+        h1[i] {
+            width: 200px;
+            height: 10px;
+            box-shadow: 0 0 0 10px #191919;
+            top: 204px;
+        }
+        h1[j] {
+            width: 110px;
+            height: 10px;
+            box-shadow: 0 0 0 10px #191919;
+            top: 224px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p></p>
+        <div>
+            <p i></p>
+        </div>
+        <div>
+            <p j></p>
+        </div>
+        <h1></h1>
+        <h1 i></h1>
+        <h1 j></h1>
+    </section>
+</body>
+</html>

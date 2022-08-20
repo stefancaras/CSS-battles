@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evil Triangles</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #191919;
+            display: flex;
+        }
+        div {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            height: 150px;
+            top: 75px;
+            left: 100px;
+            overflow: hidden;
+        }
+        p {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background: #4F77FF;
+            transform: rotate(45deg);
+            box-shadow: 
+                0 0 0 35px #191919,
+                0 0 0 70px #4F77FF;
+            top: -35px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>
