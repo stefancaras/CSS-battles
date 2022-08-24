@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hippo</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #191919;
+        }
+        p,a,b,i {
+            position: absolute;
+        }
+        p {
+            width: 10px;
+            height: 20px;
+            background: #000000;
+            border: 5px solid #FE5F55;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+            top: 70px;
+            left: 150px;
+        }
+        p[i] {
+            transform: rotate(45deg);
+            left: 230px;
+        }
+        a {
+            width: 130px;
+            height: 150px;
+            background: #FE5F55;
+            border-radius: 60px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+        a[i] {
+            width: 150px;
+            height: 100px;
+            background: #A64942;
+            border-radius: 60px 60px 50px 50px;
+            top: 195px;
+        }
+        b {
+            width: 10px;
+            height: 10px;
+            background: #000000;
+            border-radius: 50%;
+            top: 125px;
+            left: 160px;
+        }
+        b[i] {
+            left: 230px;
+        }
+        i {
+            width: 20px;
+            height: 30px;
+            background: #000000;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+            top: 165px;
+            left: 230px;
+        }
+        i[i] {
+            transform: rotate(45deg);
+            left: 150px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p i></p>
+        <a></a>
+        <a i></a>
+        <b></b>
+        <b i></b>
+        <i></i>
+        <i i></i>
+    </section>
+</body>
+</html>

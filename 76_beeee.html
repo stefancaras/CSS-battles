@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beeee</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #998235;
+        }
+        p,a {
+            position: absolute;
+        }
+        p {
+            width: 150px;
+            height: 75px;
+            background: linear-gradient(to right, #191919 25px, 
+                        #EFF33C 25px 35px, #191919 35px 60px,
+                        #EFF33C 60px 70px, #191919 70px 95px,
+                        #EFF33C 95px);
+            border-radius: 40px;
+            top: 150px;
+            left: 125px;
+        }
+        a {
+            width: 75px;
+            height: 75px;
+            background: #FFFFFF;
+            border-radius: 50% 50% 0 50%;
+            top: 75px;
+            left: 125px;
+        }
+        a[i] {
+            border-radius: 50% 50% 50% 0;
+            left: 200px;
+        }
+        a[j] {
+            width: 15px;
+            height: 15px;
+            background: #191919;
+            border-radius: 50%;
+            top: 170px;
+            left: 240px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <a></a>
+        <a i></a>
+        <a j></a>
+    </section>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephant</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #998235;
+            display: flex;
+            justify-content: center;
+        }
+        p,a,b,i {
+            position: absolute;
+            border-radius: 50%;
+        }
+        p,a,i {
+            background: #0B2429;
+        }
+        p {
+            width: 80px;
+            height: 180px;
+            box-shadow: 16px 0 #1A4341 inset;
+            top: 60px;
+            left: 50px;
+        }
+        p[i] {
+            transform: rotate(180deg);
+            left: 270px;
+        }
+        p[j] {
+            width: 180px;
+            background: #1A4341;
+            box-shadow: unset;
+            left: unset;
+        }
+        a {
+            width: 20px;
+            height: 20px;
+            border: 10px solid #998235;
+            clip: rect(20px, 40px, 40px, 0);
+            top: 130px;
+            left: 150px;
+        }
+        a[i] {
+            left: 210px;
+        }
+        b {
+            width: 80px;
+            height: 80px;
+            border: 20px solid #FFFFFF;
+            clip: rect(0, 120px, 60px, 0);
+            top: 190px;
+        }
+        i {
+            width: 40px;
+            height: 120px;
+            border-radius: 20px 20px 0 0;
+            bottom: 0;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p i></p>
+        <p j></p>
+        <a></a>
+        <a i></a>
+        <b></b>
+        <i></i>
+    </section>
+</body>
+</html>

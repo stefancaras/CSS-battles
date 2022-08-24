@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambourine</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #6592CF;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        p,a {
+            position: absolute;
+        }
+        p {
+            width: 150px;
+            height: 150px;
+            border: 10px solid #243D83;
+            border-radius: 50%;
+            top: 75px;
+        }
+        p[i] {
+            width: 100px;
+            height: 100px;
+            background: #6592CF;
+            top: 200px;
+        }
+        p[j] {
+            width: 170px;
+            height: 170px;
+            background: transparent;
+            border: 75px solid #6592CF;
+            top: 0;
+        }
+        a {
+            width: 10px;
+            height: 10px;
+            background: #243D83;
+            border: 10px solid #6592CF;
+            border-radius: 50%;
+            box-shadow: 0 0 0 10px #243D83;
+            top: 65px;
+            left: 185px;
+        }
+        a[i] {
+            top: 105px;
+            left: 115px;
+        } 
+        a[j] {
+            top: 105px;
+            left: 255px;
+        } 
+        a[k] {
+            top: 175px;
+            left: 255px;
+        } 
+        a[l] {
+            top: 175px;
+            left: 115px;
+        } 
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p i></p>
+        <p j></p>
+        <a></a>
+        <a i></a>
+        <a j></a>
+        <a k></a>
+        <a l></a>
+    </section>
+</body>
+</html>

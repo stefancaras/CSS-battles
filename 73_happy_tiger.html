@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Tiger</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #F3AC3C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a,div,p,b,i,h1 {
+            position: absolute;
+        }
+        a {
+            width: 40px;
+            height: 40px;
+            background: #1A4341;
+            border: 10px solid #998235;
+            border-radius: 50%;
+            top: 65px;
+            left: 115px;
+        }
+        a[i] {
+            left: 225px;
+        }
+        div {
+            width: 150px;
+            height: 150px;
+            background: #998235;
+            border-radius: 75px 75px 60px 60px;
+            overflow: hidden;
+        }
+        p {
+            width: 50px;
+            height: 50px;
+            background: #1A4341;
+            transform: rotate(45deg);
+            top: -35px;
+            left: 50px;
+        }
+        b {
+            width: 20px;
+            height: 20px;
+            background: #1A4341;
+            border-radius: 50%;
+            top: 135px;
+            left: 150px;
+        }
+        b[i] {
+            left: 230px;
+        }
+        i {
+            width: 100px;
+            height: 40px;
+            background: #FFFFFF;
+            border-radius: 20px 20px 50px 50px;
+            top: 170px;
+            left: 150px;
+        }
+        h1 {
+            width: 20px;
+            height: 40px;
+            border: 10px solid #1A4341;
+            border-radius: 50px;
+            clip-path: polygon(0 100%, 100% 100%, 100% 20px, 50% 20px, 50% 40px, 0 40px);
+            top: 140px;
+            left: 165px;
+        }
+        h1[i] {
+            clip-path: polygon(50% 20px, 50% 40px, 100% 40px, 100% 100%, 0 100%, 0 20px);
+            left: 195px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <a></a>
+        <a i></a>
+        <div>
+          <p></p>
+        </div>
+        <b></b>
+        <b i></b>
+        <i></i>
+        <h1></h1>
+        <h1 i></h1>
+    </section>
+</body>
+</html>

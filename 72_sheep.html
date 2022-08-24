@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #243D83;
+        }
+        a,b,p {
+            position: absolute;
+        }
+        a {
+            width: 60px;
+            height: 50px;
+            border: 20px solid #6592CF;
+            border-top: 0;
+            border-radius: 0 0 50px 50px;
+            top: 160px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        b {
+            width: 10px;
+            height: 10px;
+            background: #6592CF;
+            border-radius: 50%;
+            top: 130px;
+            left: 205px;
+        }
+        b[i] {
+            left: 185px;
+        }
+        p {
+            width: 60px;
+            height: 50px;
+            background: #6592CF;
+            border-radius: 50%;
+            top: 65px;
+            left: 170px;
+        }
+        p[i] {
+            transform: rotate(-45deg);
+            top: 85px;
+            left: 130px;
+        }
+        p[j] {
+            transform: rotate(45deg);
+            top: 85px;
+            left: 210px;
+        }
+        p[k] {
+            transform: rotate(90deg);
+            top: 125px;
+            left: 110px;
+        }
+        p[l] {
+            transform: rotate(90deg);
+            top: 125px;
+            left: 230px;
+        }
+        p[m] {
+            transform: rotate(135deg);
+            top: 165px;
+            left: 210px;
+        }
+        p[n] {
+            transform: rotate(-135deg);
+            top: 165px;
+            left: 130px;
+        }
+        p[o] {
+            top: 185px;
+            left: 170px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <a></a>
+        <b></b>
+        <b i></b>
+        <p></p>
+        <p i></p>
+        <p j></p>
+        <p k></p>
+        <p l></p>
+        <p m></p>
+        <p n></p>
+        <p o></p>
+    </section>
+</body>
+</html>
