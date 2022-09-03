@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tight Corner</title>
+    <style>
+        * {
+          margin: 0;
+        }
+        section {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: #F7F3DA;
+        }
+        p {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            background: #D25B70;
+            border-radius: 0 10px 0 0;
+            top: 110px;
+        }
+        p[i] {
+            top: 150px;
+            right: 0;
+            border-radius: 0 0 0 10px;
+            box-shadow: -100px -20px #D25B70;
+        }
+        p[j] {
+            background: #F7F3DA;
+            top: 150px;
+            border-radius: 20px;
+        }
+        p[k] {
+            background: #F7F3DA;
+            top: 110px;
+            right: 0;
+            border-radius: 20px;
+        }
+      </style>
+</head>
+<body>
+    <section>
+        <p></p>
+        <p i></p>
+        <p j></p>
+        <p k></p>
+    </section>
+</body>
+</html>
