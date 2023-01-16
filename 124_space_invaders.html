@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #071945;
+        padding: 40px 0 0 30px;
+      }
+      a,
+      b {
+        position: absolute;
+      }
+      p {
+        display: inline-block;
+        width: 70px;
+        height: 20px;
+        background: #b069f7;
+        margin: 0 16px 24px 0;
+        clip-path: polygon(
+          10px 0,
+          60px 0,
+          60px 10px,
+          70px 10px,
+          70px 20px,
+          60px 20px,
+          60px 10px,
+          10px 10px,
+          10px 20px,
+          0 20px,
+          0 10px,
+          10px 10px
+        );
+      }
+      p[i] {
+        background: #f8da37;
+      }
+      p[j] {
+        background: #071945;
+      }
+      a {
+        width: 42px;
+        height: 30px;
+        background: #2ce1ea;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        clip-path: polygon(
+          16px 0,
+          26px 0,
+          26px 14px,
+          100% 100%,
+          0 100%,
+          16px 14px
+        );
+      }
+      b {
+        width: 10px;
+        height: 10px;
+        background: #2ce1ea;
+        left: 195px;
+        top: 240px;
+      }
+      b[i] {
+        top: 210px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p i></p>
+      <p j></p>
+      <p i></p>
+      <p i></p>
+      <a></a>
+      <b></b>
+      <b i></b>
+    </section>
+  </body>
+</html>

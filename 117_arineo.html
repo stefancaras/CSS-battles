@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arineo</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+      }
+      a,
+      b,
+      i,
+      p {
+        position: absolute;
+      }
+      a {
+        width: 216px;
+        height: 180px;
+        background: #2e2926;
+        top: 60px;
+        clip-path: polygon(
+          84px 0,
+          132px 0,
+          100% 100%,
+          172px 100%,
+          108px 43px,
+          44px 100%,
+          0 100%
+        );
+      }
+      b {
+        width: 160px;
+        height: 160px;
+        box-shadow: 0 0 0 8px #ffffff, 0 0 0 28px #0088ca, 0 0 0 36px #ffffff;
+        transform: rotate(45deg);
+        top: -80px;
+      }
+      i {
+        width: 200px;
+        height: 200px;
+        top: 65px;
+        left: 120px;
+        overflow: hidden;
+      }
+      p {
+        width: 22px;
+        height: 22px;
+        background: #0088ca;
+        border-radius: 50%;
+        top: 139px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <i><b></b></i>
+      <p></p>
+    </section>
+  </body>
+</html>
