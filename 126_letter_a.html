@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter A</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #62306d;
+      }
+      a,
+      b {
+        position: absolute;
+      }
+      a {
+        width: 94px;
+        height: 140px;
+        background: #fef9ca;
+        top: 80px;
+        left: 123px;
+        clip-path: polygon(0 100%, 51px 0, 100% 0, 43px 100%);
+      }
+      a[i] {
+        background: #c5b732;
+        transform: scale(-1, 1);
+        left: 183px;
+      }
+      b {
+        width: 94px;
+        height: 50px;
+        background: #e38f66;
+        top: 170px;
+        left: 129px;
+        clip-path: polygon(0 100%, 42px 0, 100% 0, 52px 100%);
+      }
+      b[i] {
+        background: #aa445f;
+        transform: scale(-1, 1);
+        left: 177px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a i></a>
+      <a></a>
+      <b i></b>
+      <b></b>
+    </section>
+  </body>
+</html>
