@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiral</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #f5d6b4;
+      }
+      a {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: 20px solid;
+        border-color: transparent transparent #d86f45 #d86f45;
+        border-radius: 50%;
+        top: 110px;
+        left: 160px;
+        transform: rotate(135deg);
+      }
+      a[i] {
+        width: 120px;
+        height: 120px;
+        top: 70px;
+        left: 120px;
+      }
+      a[j] {
+        width: 160px;
+        height: 160px;
+        top: 50px;
+        left: 80px;
+        transform: rotate(-45deg);
+      }
+      a[k] {
+        width: 80px;
+        height: 80px;
+        top: 90px;
+        left: 120px;
+        transform: rotate(-45deg);
+      }
+      a[l] {
+        width: 0;
+        height: 0;
+        border: 10px solid #d86f45;
+        top: 140px;
+        left: 80px;
+      }
+      a[m] {
+        width: 0;
+        height: 0;
+        border: 10px solid #d86f45;
+        top: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+      <a l></a>
+      <a m></a>
+    </section>
+  </body>
+</html>

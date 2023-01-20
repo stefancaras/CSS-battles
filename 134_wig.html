@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wig</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #62306d;
+      }
+      a,
+      b {
+        position: absolute;
+      }
+      a {
+        width: 160px;
+        height: 160px;
+        background: #f7ec7d;
+        border-radius: 50% 50% 0 0;
+        top: 70px;
+        left: 120px;
+        clip-path: polygon(
+          0 100%,
+          0 0,
+          100% 0,
+          100% 100%,
+          120px 100%,
+          50% 120px,
+          40px 100%
+        );
+      }
+      b {
+        width: 80px;
+        height: 80px;
+        background: #f7ec7d;
+        border-radius: 50%;
+        top: 150px;
+        left: 120px;
+      }
+      b[i] {
+        left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <b></b>
+      <b i></b>
+    </section>
+  </body>
+</html>
