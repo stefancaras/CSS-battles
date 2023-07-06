@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eight</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #926927;
+        overflow: hidden;
+      }
+      a {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 40px solid #6d480a;
+        border-radius: 50%;
+        top: -90px;
+        right: 10px;
+      }
+      a[i] {
+        top: 10px;
+        right: -90px;
+      }
+      a[j] {
+        right: -165px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a i></a>
+      <a j></a>
+    </section>
+  </body>
+</html>
