@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earthworm</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #e38f66;
+        overflow: hidden;
+      }
+      a,
+      b {
+        position: absolute;
+        width: 40px;
+        height: 120px;
+      }
+      a[j],
+      a[k] {
+        transform: rotate(90deg);
+      }
+      a[k],
+      a[l],
+      b {
+        left: 40px;
+      }
+      a {
+        background: #fffbda;
+        top: 100px;
+        border-radius: 20px;
+      }
+      a[i] {
+        top: 180px;
+        left: 80px;
+      }
+      a[j] {
+        top: 220px;
+        left: 120px;
+      }
+      a[k] {
+        top: 140px;
+      }
+      a[l] {
+        height: 200px;
+        transform: rotate(-45deg);
+      }
+      b {
+        background: #e38f66;
+        top: 60px;
+        border-radius: 10px;
+      }
+      b[i] {
+        top: 220px;
+      }
+      b[j] {
+        top: 140px;
+        left: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+      <a l></a>
+      <b></b>
+      <b i></b>
+      <b j></b>
+    </section>
+  </body>
+</html>
