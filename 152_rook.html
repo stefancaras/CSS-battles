@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rook</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #62306d;
+      }
+      a[m],
+      b {
+        background: #62306d;
+      }
+      a[j],
+      a[l],
+      a[m] {
+        border-radius: 5px;
+      }
+      a[j],
+      a[l],
+      i {
+        height: 10px;
+      }
+      a,
+      i {
+        background: #f7ec7d;
+      }
+      b,
+      i {
+        border-radius: 50%;
+      }
+      b {
+        width: 150px;
+        height: 150px;
+        top: -65px;
+        left: -100px;
+      }
+      a,
+      b,
+      i {
+        position: absolute;
+      }
+      a {
+        width: 140px;
+        height: 65px;
+        top: 135px;
+        left: 130px;
+      }
+      b[i],
+      i[j] {
+        left: 90px;
+      }
+      a[i] {
+        height: 25px;
+        border-radius: 20px 20px 10px 10px;
+        top: 220px;
+      }
+      a[j] {
+        width: 60px;
+        top: 120px;
+        left: 170px;
+      }
+      a[k] {
+        width: 90px;
+        height: 55px;
+        border-radius: 0 0 10px 10px;
+        top: 60px;
+        left: 155px;
+      }
+      a[l] {
+        width: 110px;
+        top: 205px;
+        left: 145px;
+      }
+      a[m] {
+        width: 30px;
+        height: 50px;
+        top: 50px;
+        left: 165px;
+        -webkit-box-reflect: right 10px;
+      }
+      i {
+        width: 10px;
+        top: -150px;
+        left: 10px;
+      }
+      i[i] {
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a>
+        <b></b>
+        <b i></b>
+      </a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+      <a l>
+        <i></i>
+        <i i></i>
+        <i j></i>
+      </a>
+      <a m></a>
+    </section>
+  </body>
+</html>
