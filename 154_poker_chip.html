@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker Chip</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: radial-gradient(
+          circle at 50%,
+          #0b2429 24%,
+          #fcbe5c 24.3% 28%,
+          #0b2429 28.3% 32%,
+          #fcbe5c 32.3% 38%,
+          #0b2429 38.3% 42%,
+          #998235 42.3%
+        );
+      }
+      a {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #0b2429;
+        top: 50px;
+        left: 185px;
+      }
+      a[l],
+      a[n] {
+        top: 75px;
+      }
+      a[m],
+      a[o] {
+        top: 195px;
+      }
+      a[l],
+      a[m],
+      a[n],
+      a[o] {
+        transform: rotate(45deg);
+        left: 125px;
+      }
+      a[i] {
+        top: 220px;
+      }
+      a[j] {
+        top: 135px;
+        left: 100px;
+      }
+      a[k] {
+        top: 135px;
+        left: 270px;
+      }
+      a[l],
+      a[m] {
+        left: 245px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+      <a l></a>
+      <a m></a>
+      <a n></a>
+      <a o></a>
+    </section>
+  </body>
+</html>
