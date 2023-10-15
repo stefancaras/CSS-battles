@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missing Piece</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #d669ec;
+        overflow: hidden;
+      }
+      a,
+      p {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+      p {
+        background: #fdfbf8;
+        top: 40px;
+        left: 90px;
+      }
+      p[i] {
+        left: 210px;
+      }
+      p[j] {
+        top: 160px;
+      }
+      a {
+        background: #d669ec;
+        transform: rotate(45deg);
+        top: -24px;
+        left: 150px;
+      }
+      a[i] {
+        top: 224px;
+      }
+      a[j] {
+        top: 100px;
+        left: 26px;
+      }
+      a[k] {
+        top: 100px;
+        left: 274px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <p i></p>
+      <p j></p>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+    </section>
+  </body>
+</html>
