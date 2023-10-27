@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rangoli</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #66284a;
+      }
+      a {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border: 20px solid #d86f45;
+        border-radius: 50%;
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          50% 100%,
+          0% 100%
+        );
+        top: 100px;
+        left: 90px;
+      }
+      a[i] {
+        border-color: #f0cd48;
+        rotate: 90deg;
+        top: 40px;
+        left: 150px;
+      }
+      a[j] {
+        border-color: #d669ec;
+        rotate: 180deg;
+        left: 210px;
+      }
+      a[k] {
+        border-color: #fdfbf8;
+        rotate: 270deg;
+        top: 160px;
+        left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+    </section>
+  </body>
+</html>
