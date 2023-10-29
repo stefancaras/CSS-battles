@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evil Cat</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #ed6a9d;
+      }
+      a,
+      b,
+      i,
+      q,
+      p {
+        position: fixed;
+      }
+      p {
+        width: 180px;
+        height: 150px;
+        background: #050044;
+        border-radius: 50%;
+        top: 90px;
+        left: 110px;
+      }
+      a {
+        width: 40px;
+        height: 40px;
+        background: #ffc100;
+        border-radius: 50% 0;
+        rotate: 45deg;
+        top: 130px;
+        left: 145px;
+      }
+      b {
+        width: 10px;
+        height: 30px;
+        background: #050044;
+        border-radius: 50%;
+        top: 135px;
+        left: 160px;
+      }
+      b + a {
+        left: 215px;
+      }
+      b + a + b {
+        left: 230px;
+      }
+      i {
+        border: 15px solid #050044;
+        border-top: 15px solid #ed6a9d;
+        top: 185px;
+        left: 185px;
+      }
+      q {
+        width: 160px;
+        height: 65px;
+        background: #050044;
+        clip-path: polygon(
+          4px 100%,
+          0 0,
+          61% 100%,
+          39% 100%,
+          100% 0,
+          156px 100%
+        );
+        top: 64px;
+        left: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <a></a>
+      <b></b>
+      <a></a>
+      <b></b>
+      <i></i>
+      <q></q>
+    </section>
+  </body>
+</html>
