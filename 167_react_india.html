@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React India</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #0d1335;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a,
+      b {
+        position: fixed;
+        border-radius: 50%;
+      }
+      a {
+        width: 230px;
+        height: 90px;
+        border: 10px solid #fbfae2;
+      }
+      a + a {
+        border-color: #4fa07b;
+        rotate: 120deg;
+      }
+      a + a + a {
+        border-color: #dc6638;
+        rotate: 60deg;
+      }
+      b {
+        width: 40px;
+        height: 40px;
+        background: #73c6ea;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <b></b>
+      <a></a>
+      <a></a>
+      <a></a>
+    </section>
+  </body>
+</html>
