@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carpet</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+      }
+      p {
+        width: 70px;
+        height: 20px;
+        background: #dc6638;
+        box-shadow: 0 0 0 20px #0d1335, 0 0 0 40px #dc6638, 0 0 0 60px #0d1335,
+          0 0 0 80px #dc6638, 0 0 0 100px #0d1335, 0 0 0 120px #dc6638,
+          0 0 0 130px #0d1335;
+        -webkit-box-reflect: right 260px;
+      }
+      p + p {
+        margin: 260px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <p></p>
+    </section>
+  </body>
+</html>
