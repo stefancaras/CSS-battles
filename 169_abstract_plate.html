@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abstract Plate</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: radial-gradient(
+          circle,
+          #4fa07b 55px,
+          #0d1335 56px 65px,
+          #4fa07b 66px 85px,
+          #0d1335 86px 95px,
+          #4fa07b 96px 115px,
+          #0d1335 116px 125px,
+          #4fa07b 126px
+        );
+      }
+      a {
+        position: fixed;
+        width: 189px;
+        height: 236px;
+        background: #fbfae2;
+        clip-path: polygon(
+          0 0,
+          100% 50%,
+          0 100%,
+          5% 218px,
+          76% 134px,
+          76% 102px,
+          5% 18px,
+          5% 218px,
+          0 100%
+        );
+        top: 32px;
+        left: 45px;
+      }
+      a + a {
+        rotate: 180deg;
+        left: 166px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a></a>
+    </section>
+  </body>
+</html>
