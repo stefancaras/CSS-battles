@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lock Up</title>
     <style>
-        * {
-          margin: 0;
-        }
-        section{
-            width: 400px;
-            height: 300px;
-            background: #E38F66;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        p {
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: #AA445F;
-            border-radius: 50%;
-        }
-        p[i] {
-            width: 80px;
-            height: 80px;
-            border: 30px solid;
-            border-color: #F7EC7D transparent;
-            transform: rotate(45deg);
-        }
-      </style>
-</head>
-<body>
-    <section>
-        <p></p>
-        <p i></p>
-    </section>
-</body>
+      * {
+        margin: 0;
+      }
+      section {
+        width: 400px;
+        height: 300px;
+        background: radial-gradient(
+            circle,
+            #aa445f 40px,
+            #0000 41px 70px,
+            #aa445f 71px 100px,
+            #e38f66 101px
+          ),
+          conic-gradient(#f7ec7d 25%, #aa445f 0 50%, #f7ec7d 0 75%, #aa445f 0);
+      }
+    </style>
+  </head>
+  <body>
+    <section></section>
+  </body>
 </html>
