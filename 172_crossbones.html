@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossbones</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #efeb99;
+      }
+      a,
+      b {
+        position: absolute;
+        width: 30px;
+        background: #8647e6;
+      }
+      a {
+        height: 200px;
+        top: 50px;
+        left: 185px;
+        rotate: -45deg;
+      }
+      a + a {
+        rotate: 45deg;
+      }
+      b {
+        height: 30px;
+        color: #8647e6;
+        border-radius: 50%;
+        top: 57px;
+        left: 128px;
+        box-shadow: -21px 21px, 113px 0, 134px 21px, -21px 134px, 134px 134px,
+          0 156px, 113px 156px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a></a>
+      <b></b>
+    </section>
+  </body>
+</html>
