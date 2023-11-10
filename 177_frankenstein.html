@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frankenstein</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #3c8d3f;
+      }
+      b,
+      s {
+        width: 10px;
+      }
+      b,
+      u {
+        height: 10px;
+      }
+      s,
+      u {
+        background: #1a1d2f;
+        left: 100px;
+      }
+      a,
+      b,
+      i,
+      s,
+      u {
+        position: absolute;
+      }
+      a {
+        width: 150px;
+        height: 150px;
+        background: #14f078;
+        border-radius: 10px 10px 50% 50%;
+        top: 75px;
+        left: 125px;
+        overflow: hidden;
+      }
+      p {
+        height: 45px;
+        background: #1a1d2f;
+        clip-path: polygon(
+          0%0,
+          0%67%,
+          10%100%,
+          20%67%,
+          30%100%,
+          40%67%,
+          50%100%,
+          60%67%,
+          70%100%,
+          80%67%,
+          90%100%,
+          100%67%,
+          100%0
+        );
+      }
+      b {
+        background: #fff;
+        border: 10px solid#1a1d2f;
+        border-radius: 50%;
+        top: 70px;
+        left: 30px;
+      }
+      b + b {
+        left: 90px;
+      }
+      i {
+        width: 40px;
+        height: 40px;
+        background: #1a1d2f;
+        border-radius: 50%;
+        clip-path: polygon(0 50%, 100%50%, 100%100%, 0 100%);
+        top: 90px;
+        left: 55px;
+      }
+      s {
+        height: 30px;
+        border-radius: 5px;
+        top: 145px;
+        box-shadow: 190px 0#1a1d2f;
+      }
+      u {
+        width: 190px;
+        top: 155px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <s></s>
+      <u></u>
+      <a>
+        <p></p>
+        <b></b>
+        <b></b>
+        <i></i>
+      </a>
+    </section>
+  </body>
+</html>
