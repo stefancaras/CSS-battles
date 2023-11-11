@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candy</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #cbe8dd;
+      }
+      a,
+      b {
+        position: absolute;
+      }
+      a {
+        width: 180px;
+        height: 100px;
+        background: linear-gradient(
+          290deg,
+          #007192 59px,
+          #0000 60px 69px,
+          #007192 70px 78px,
+          #0000 79px 88px,
+          #007192 89px 97px,
+          #0000 98px 107px,
+          #007192 108px 116px,
+          #0000 117px 126px,
+          #007192 127px 135px,
+          #0000 136px 145px,
+          #007192 146px
+        );
+        border-radius: 10px;
+        top: 100px;
+        left: 110px;
+      }
+      b {
+        height: 20px;
+        border: 30px solid transparent;
+        border-left: 30px solid#007192;
+        top: 10px;
+        left: -40px;
+        -webkit-box-reflect: right 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a>
+        <b></b>
+      </a>
+    </section>
+  </body>
+</html>
