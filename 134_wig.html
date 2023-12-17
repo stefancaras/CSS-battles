@@ -15,45 +15,33 @@
         height: 300px;
         background: #62306d;
       }
-      a,
-      b {
-        position: absolute;
-      }
       a {
-        width: 160px;
-        height: 160px;
-        background: #f7ec7d;
-        border-radius: 50% 50% 0 0;
-        top: 70px;
-        left: 120px;
-        clip-path: polygon(
-          0 100%,
-          0 0,
-          100% 0,
-          100% 100%,
-          120px 100%,
-          50% 120px,
-          40px 100%
-        );
-      }
-      b {
+        position: fixed;
         width: 80px;
         height: 80px;
+        border-radius: 0 1in 1in 0;
         background: #f7ec7d;
-        border-radius: 50%;
         top: 150px;
         left: 120px;
       }
-      b[i] {
+      a + a {
+        rotate: 180deg;
         left: 200px;
+      }
+      a + a + a {
+        width: 120px;
+        height: 160px;
+        rotate: -90deg;
+        top: 50px;
+        left: 140px;
       }
     </style>
   </head>
   <body>
     <section>
       <a></a>
-      <b></b>
-      <b i></b>
+      <a></a>
+      <a></a>
     </section>
   </body>
 </html>
