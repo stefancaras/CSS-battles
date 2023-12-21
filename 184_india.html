@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brazil</title>
+    <title>India</title>
     <style>
       * {
         margin: 0;
@@ -13,34 +13,35 @@
         position: relative;
         width: 400px;
         height: 300px;
-        background: #009b3a;
+        background: radial-gradient(
+            circle,
+            #00007b 10px,
+            #0000 11px 30px,
+            #00007b 31px 40px,
+            #0000 41px
+          ),
+          linear-gradient(#f19e4b 106Q, #fff 0 212Q, #3f8627 0);
       }
-      a,
       p {
         position: fixed;
-        height: 300px;
+        width: 4px;
+        height: 80px;
+        background: #00007b;
+        margin: 110px 198px;
       }
-      a {
-        width: 300px;
-        background: radial-gradient(
-          #002776 100px,
-          #fff 101px 110px,
-          #002776 111px
-        );
-        margin: 80px 20px;
-        clip-path: circle(60px at 60%70px);
+      p + p {
+        rotate: 60deg;
       }
-      p {
-        width: 400px;
-        background: #fedf00;
-        clip-path: polygon(50%50px, 350px 50%, 50%250px, 50px 50%);
+      p + p + p {
+        rotate: 120deg;
       }
     </style>
   </head>
   <body>
     <section>
       <p></p>
-      <a></a>
+      <p></p>
+      <p></p>
     </section>
   </body>
 </html>
