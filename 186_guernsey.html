@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guernsey</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+      }
+      a,
+      b {
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        background: #f9dd16;
+      }
+      a {
+        border: solid;
+        border-color: #E8112D#F9DD16;
+        border-width: 10px 15px;
+        margin: 130px 85px;
+        box-shadow: 1in 0 0 20px#E8112D, -1in 0 0 20px#E8112D;
+      }
+      a + a,
+      b {
+        rotate: 90deg;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a><a><b></b></a>
+    </section>
+  </body>
+</html>
