@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Striped Triangle</title>
+    <title>Icecream Sticks</title>
     <style>
       * {
         margin: 0;
@@ -13,22 +13,33 @@
         position: relative;
         width: 400px;
         height: 300px;
-        background: #40234b;
+        background: #fffd9b;
       }
       p {
-        position: absolute;
-        height: 202px;
-        width: 230px;
-        background: linear-gradient(-60deg, #a94ea4 35%, #0000 0),
-          repeating-linear-gradient(-60deg, #a94ea4 0 16px, #40234b 0 26px);
-        clip-path: polygon(0%0, 50%99%, 100%0);
-        top: 50px;
-        left: 85px;
+        position: fixed;
+        height: 20px;
+        width: 340px;
+        border-radius: 1in;
+        background: #646521;
+        color: #969610;
+        top: 140px;
+        left: 30px;
+      }
+      [i],
+      [j] {
+        box-shadow: 0 -80px, 0 80px;
+      }
+      [j] {
+        rotate: 90deg;
+        width: 240px;
+        left: 80px;
       }
     </style>
   </head>
   <body>
     <section>
+      <p i></p>
+      <p j></p>
       <p></p>
     </section>
   </body>
