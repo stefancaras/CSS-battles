@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galver</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #fcddeb;
+      }
+      a,
+      b,
+      p {
+        position: fixed;
+      }
+      a,
+      b {
+        border-radius: 50%;
+      }
+      a {
+        width: 160px;
+        height: 160px;
+        background: radial-gradient(
+          #8b0051 18%,
+          #f180b6 19% 31%,
+          #8b0051 32% 44%,
+          #0000 45% 65px,
+          #8b0051 66px
+        );
+        top: 70px;
+        left: 120px;
+      }
+      p {
+        border: solid;
+        border-width: 15px 100px;
+        border-color: #0000#8B0051;
+        top: 135px;
+        left: 100px;
+      }
+      p + p {
+        rotate: 90deg;
+      }
+      b {
+        color: #8b0051;
+        width: 30px;
+        height: 30px;
+        box-shadow: 85px 135px, 285px 135px, 185px 35px, 185px 235px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <b></b>
+      <p></p>
+      <p></p>
+      <a></a>
+    </section>
+  </body>
+</html>
