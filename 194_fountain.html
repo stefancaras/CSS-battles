@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fountain</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #4fa07b;
+      }
+      a,
+      p {
+        position: fixed;
+      }
+      a {
+        width: 140px;
+        height: 140px;
+        background: radial-gradient(
+          #0000 0 10px,
+          #0d1335 11px 29px,
+          #4fa07b 30px 50px,
+          #0d1335 51px 70px,
+          #0000 71px
+        );
+        top: 120px;
+        left: 70px;
+        clip-path: polygon(0 0, 100%0, 100%50%, 0 50%);
+      }
+      a + a {
+        left: 190px;
+      }
+      a + a + a {
+        top: 20px;
+        left: 130px;
+      }
+      p {
+        width: 20px;
+        height: 52px;
+        color: #0d1335;
+        top: 185px;
+        left: 8px;
+        box-shadow: 122px -95px, 162px -95px, 202px -95px, 242px -95px, 62px 0,
+          102px 0, 142px 0, 182px 0, 222px 0, 262px 0, 302px 0, 102px 23px,
+          142px 43px, 182px 43px, 222px 43px, 262px 23px, 182px 63px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <a></a>
+      <a></a>
+      <a></a>
+    </section>
+  </body>
+</html>
