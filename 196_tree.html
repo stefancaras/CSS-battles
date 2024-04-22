@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tree</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #90d3a6;
+      }
+      a {
+        position: fixed;
+        background: #024817;
+        width: 200px;
+        height: 20px;
+        border-radius: 1in;
+        top: 220px;
+        left: 100px;
+      }
+      a + a {
+        width: 180px;
+        rotate: 90deg;
+        top: 140px;
+        left: 110px;
+      }
+      [i],
+      [j],
+      [k],
+      [l] {
+        width: 64px;
+        rotate: 30deg;
+        top: 106px;
+        left: 144px;
+      }
+      [j],
+      [l] {
+        top: 156px;
+      }
+      [k],
+      [l] {
+        rotate: -30deg;
+        left: 192px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a></a>
+      <a i></a>
+      <a j></a>
+      <a k></a>
+      <a l></a>
+    </section>
+  </body>
+</html>
