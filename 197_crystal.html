@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #5f133f;
+      }
+      a,
+      p {
+        position: absolute;
+        width: 50px;
+      }
+      a {
+        background: linear-gradient(#f7bed9 30px, #f075b0 0 190px, #f7bed9 0);
+        height: 220px;
+        top: 40px;
+        left: 175px;
+        clip-path: polygon(50%0, 100%30px, 100%190px, 50%100%, 0 190px, 0 30px);
+      }
+      a + a {
+        rotate: 60deg;
+      }
+      a + a + a {
+        rotate: 120deg;
+      }
+      p {
+        background: #f7bed9;
+        height: 50px;
+        border-radius: 50%;
+        top: 85px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <a></a>
+      <a>
+        <p></p>
+      </a>
+    </section>
+  </body>
+</html>
