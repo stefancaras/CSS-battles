@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LookAway</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #131313;
+      }
+      a,
+      b,
+      p {
+        position: fixed;
+        border-radius: 50%;
+      }
+      a {
+        background: radial-gradient(300px at 20px 105px, #f459e3 50%, #0000 51%),
+          radial-gradient(300px at 60px 115px, #e89a52 50%, #f9c96c 51%);
+        width: 240px;
+        height: 190px;
+        border-radius: 5in 5in 9in 9in;
+        rotate: -15deg;
+        top: 55px;
+        left: 80px;
+      }
+      p {
+        width: 50px;
+        height: 50px;
+        border: 15px solid;
+        border-color: #131313#131313#0000#0000;
+        rotate: 135deg;
+        top: 120px;
+        left: 100px;
+      }
+      p + p {
+        left: 195px;
+      }
+      b {
+        color: #131313;
+        width: 15px;
+        height: 15px;
+        box-shadow: 100px 0, 165px 0, 195px 0, 260px 0;
+        top: 152px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <b></b>
+      <p></p>
+      <p></p>
+    </section>
+  </body>
+</html>
