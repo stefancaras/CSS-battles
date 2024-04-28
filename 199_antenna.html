@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antenna</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: linear-gradient(
+          90deg,
+          #f48b26 190px,
+          #feff58 0 210px,
+          #f48b26 0
+        );
+        overflow: hidden;
+      }
+      a,
+      p {
+        position: absolute;
+        border-radius: 10px;
+      }
+      a {
+        color: #feff58;
+        width: 160px;
+        height: 20px;
+        box-shadow: 120px 30px, 80px 80px, 160px 80px, 40px 130px, 200px 130px;
+      }
+      p {
+        background: #feff58;
+        width: 200px;
+        height: 200px;
+        top: 230px;
+        left: -90px;
+      }
+      [j] {
+        left: 290px;
+      }
+      [i] {
+        background: #f48b26;
+        border-radius: 60px;
+        top: 180px;
+        left: -80px;
+        border: 20px solid#FEFF58;
+      }
+      [i] + [i] {
+        left: 240px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <a></a>
+      <p i></p>
+      <p i></p>
+      <p></p>
+      <p j></p>
+    </section>
+  </body>
+</html>
