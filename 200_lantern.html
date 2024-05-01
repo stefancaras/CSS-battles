@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lantern</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: linear-gradient(
+          90deg,
+          #fad3e5 175px,
+          #8b0051 0 225px,
+          #fad3e5 0
+        );
+      }
+      p {
+        position: absolute;
+        background: #8b0051;
+        width: 250px;
+        height: 125px;
+        clip-path: polygon(50%0, 100%50%, 50%100%, 0 50%);
+        top: 28px;
+        left: 75px;
+      }
+      p + p {
+        top: 148px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <p></p>
+    </section>
+  </body>
+</html>
