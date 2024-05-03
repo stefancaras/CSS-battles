@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steering Wheel</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #4f77ff;
+        overflow: hidden;
+      }
+      a,
+      b,
+      p {
+        position: absolute;
+        width: 200px;
+        height: 90px;
+        left: 100px;
+      }
+      p {
+        background: #1038bf;
+        top: 132px;
+      }
+      a {
+        background: #4f77ff;
+        border-radius: 10px;
+        top: 162px;
+        left: -14px;
+      }
+      a + a {
+        left: 216px;
+      }
+      b {
+        height: 200px;
+        background: radial-gradient(
+          #4f77ff 9px,
+          #0000 10px 69px,
+          #1038bf 70px 99px,
+          #4f77ff 100px
+        );
+        top: 50px;
+      }
+      [i] {
+        width: 30px;
+        top: 9px;
+        left: 185px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <a></a>
+      <a></a>
+      <b></b>
+      <a i></a>
+    </section>
+  </body>
+</html>
